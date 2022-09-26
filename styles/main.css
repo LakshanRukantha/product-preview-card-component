@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+  width: 37.5rem;
+  height: 28.1rem;
+  overflow: hidden;
+}
+
+.product-image {
+  flex: 50%;
+  width: 50%;
+  height: 100%;
+  background-image: url("../images/image-product-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-info {
+  flex: 50%;
+  background-color: #fff;
+  width: 50%;
+  height: 100%;
+  padding: 2rem;
+}
+
+.category {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 1.2rem;
+}
+
+.product {
+  font-family: Fraunces;
+  font-size: 2.2rem;
+  line-height: 2rem;
+}
+
+.description {
+  color: hsl(228, 12%, 48%);
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  padding: 1.5rem 0rem;
+  line-height: 1.45rem;
+}
+
+.prices {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.7rem;
+}
+
+.new-price {
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+  font-family: Fraunces;
+}
+
+.old-price {
+  color: hsl(228, 12%, 48%);
+  font-size: 0.8rem;
+  font-family: Montserrat;
+  margin-left: 1.2rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.cart-btn {
+  font-family: Montserrat;
+  border: none;
+  font-weight: 700;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 0.5rem;
+  outline: none;
+  width: 100%;
+  color: #fff;
+  line-height: 3rem;
+}
+
+.cart-btn::before {
+  position: relative;
+  content: url("../images/icon-cart.svg");
+  top: 0.2rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 800px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 38rem;
+    overflow: hidden;
+  }
+
+  .product-image,
+  .product-info {
+    flex: 100%;
+  }
+  .product-image {
+    height: 15rem;
+  }
+  .product-info {
+    height: 23rem;
+  }
+}
