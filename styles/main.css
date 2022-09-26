@@ -102,6 +102,18 @@ body {
   line-height: 3rem;
 }
 
+.cart-btn:hover {
+  background-color: hsl(156, 42%, 17%);
+}
+
+.cart-btn:focus {
+  background-color: hsl(156, 42%, 17%);
+}
+
+.cart-btn:active {
+  transform: scale(99%);
+}
+
 .cart-btn::before {
   position: relative;
   content: url("../images/icon-cart.svg");
