@@ -107,11 +107,7 @@ body {
 }
 
 .cart-btn:focus {
-  background-color: hsl(156, 42%, 17%);
-}
-
-.cart-btn:active {
-  transform: scale(99%);
+  outline: 4px solid hsla(158, 36%, 37%, 0.5);
 }
 
 .cart-btn::before {
