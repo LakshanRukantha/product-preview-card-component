@@ -49,24 +49,24 @@ body {
   text-transform: uppercase;
   font-family: Montserrat;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   letter-spacing: 0.3rem;
   color: hsl(228, 12%, 48%);
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.3rem;
 }
 
 .product {
   font-family: Fraunces;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 2rem;
 }
 
 .description {
   color: hsl(228, 12%, 48%);
   font-family: Montserrat;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   padding: 1.5rem 0rem;
-  line-height: 1.45rem;
+  line-height: 1.43rem;
 }
 
 .prices {
@@ -118,13 +118,13 @@ body {
   margin-right: 1rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .card {
     display: flex;
     flex-wrap: wrap;
     border-radius: 1rem;
     border-radius: 0.5rem;
-    width: 20rem;
+    width: 21.4rem;
     height: 38rem;
     overflow: hidden;
   }
@@ -134,9 +134,28 @@ body {
     flex: 100%;
   }
   .product-image {
+    background-image: url("../images/image-product-mobile.jpg");
     height: 15rem;
   }
   .product-info {
     height: 23rem;
+    padding: 1.5rem;
+  }
+
+  .category {
+    margin-bottom: 0.75rem;
+  }
+
+  .product {
+    font-size: 2rem;
+  }
+
+  .description {
+    padding: 1rem 0rem;
+    font-size: 0.87rem;
+  }
+
+  .prices {
+    margin-bottom: 1rem;
   }
 }
