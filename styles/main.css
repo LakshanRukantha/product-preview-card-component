@@ -87,7 +87,7 @@ body {
   font-family: Montserrat;
   text-decoration: line-through;
   margin-left: 1.2rem;
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
   font-weight: 500;
 }
 
@@ -115,7 +115,8 @@ body {
   position: relative;
   content: url("../images/icon-cart.svg");
   top: 0.2rem;
-  margin-right: 1rem;
+  left: -0.2rem;
+  margin-right: 0.5rem;
 }
 
 @media (max-width: 768px) {
