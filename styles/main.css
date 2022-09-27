@@ -21,7 +21,7 @@ body {
 .card {
   display: flex;
   flex-wrap: wrap;
-  border-radius: 1rem;
+  border-radius: 0.6rem;
   width: 37.5rem;
   height: 28.1rem;
   overflow: hidden;
